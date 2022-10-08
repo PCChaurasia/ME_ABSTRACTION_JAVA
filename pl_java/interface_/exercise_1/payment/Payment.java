@@ -1,9 +1,4 @@
-package pl_java.interface_.exercise_1;
-
-import pl_java.interface_.exercise_1.payment.DebitCard;
-import pl_java.interface_.exercise_1.payment.NetBanking;
-import pl_java.interface_.exercise_1.payment.Paytm;
-import pl_java.interface_.exercise_1.payment.UPI;
+package pl_java.interface_.exercise_1.payment;
 
 public class Payment{
     /*

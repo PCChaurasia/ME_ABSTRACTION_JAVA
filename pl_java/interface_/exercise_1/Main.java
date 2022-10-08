@@ -2,6 +2,8 @@ package pl_java.interface_.exercise_1;
 
 import java.util.Scanner;
 
+import pl_java.interface_.exercise_1.payment.Payment;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
