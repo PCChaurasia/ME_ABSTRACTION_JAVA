@@ -13,6 +13,17 @@ public class Player {
     // Implement this method
     // find the rule that produces the largest result.
     public GameRule findBest(GameRule[] rules){
-        return null;
+        //TODO
+        int bestValue = 0;
+        GameRule bestRule = null;
+        for (GameRule r : rules) {
+            int tmpVal = r.calculateResult(values);
+            if (tmpVal > bestValue) {
+                bestValue = tmpVal;
+                bestRule = r;
+            }
+        }       
+        return bestRule;
+
     }
 }

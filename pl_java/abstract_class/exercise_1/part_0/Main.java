@@ -5,6 +5,7 @@ import pl_java.abstract_class.exercise_1.part_0.employee.Hourly;
 
 public class Main {
     public static void main(String[] args) {
+    
         Payroll payroll = new Payroll();
 
         payroll.add(new FullTime("John", "Doe", 6000));
